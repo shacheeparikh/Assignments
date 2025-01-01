@@ -1,7 +1,7 @@
 CREATE DATABASE MarketCo;
 
 Use MarketCo;
-
+-- 1) Statement to create the Contact table  
 Create table Contact
 (
 ContactID int primary key,
@@ -18,7 +18,8 @@ Phone Varchar(12)
 );
 
 
-
+ 
+-- 2) Statement to create the Employee table 
 Create Table Employee
 (
 EmployeeID int primary key,
@@ -31,13 +32,16 @@ Email Varchar(45),
 Phone Varchar(12)
 );
 
+
 Insert into employee VALUES(1,'shachee','parikh', 30000 , '2021-12-12','Quality Analyst','parikhshachee28@gmail.com','7990087844');
 
 Insert into employee VALUES(2,'Lesley','band', 30000 , '2019-09-06',' Analyst','parikhshachee28@gmail.com','215-888-2345');
 
 select * from employee;
 
-
+-- 3) Statement to create the ContactEmployee table  
+-- HINT: Use DATE as the datatype for ContactDate. It allows you to store the 
+-- date in this format: YYYY-MM-DD (i.e., ‘2014-03-12’ for March 12, 2014).
 Create Table ContactEmployee
 (
 ContactEmployeeID int primary key,
@@ -47,9 +51,9 @@ ContactDate Date,
 Descriptionn Varchar(100)
 );
 
-
 insert into Contact VALUES(1,1,'shachee','parikh', '1st street','New York', 'NY' , '92122',0,'shacheeparikh@gmail.com','79990087844');
 
+-- 4) In the Employee table, the statement that changes Lesley Bland’s phone number to 215-555-8800 
 Update Employee 
 set Phone='215-888-8800'
 WHERE FirstName='Lesley';
@@ -81,9 +85,11 @@ VALUES
 (9, 'Cyber Security Solutions', '444 Tech Park', 'Boston', 'MA', '02110'),
 (10, 'Global Consulting', '555 Corporate Plaza', 'Los Angeles', 'CA', '90001');
 
+-- 5) In the Company table, the statement that changes the name of “Urban Outfitters, Inc.” to “Urban Outfitters” . 
+
 Update Company set CompanyName='Urban Outfitters' where CompanyName='Urban_outfitters';
 
--- In ContactEmployee table, the statement that removes Dianne Connor’s contact event with Jack Lee (one statement).
+-- 6) In ContactEmployee table, the statement that removes Dianne Connor’s contact event with Jack Lee (one statement).
 -- HINT: Use the primary key of the ContactEmployee table to specify the correct record to remove.
 delete from contactemployee where ContactEmployeeID = 1;
 
