@@ -1,0 +1,11 @@
+driver_id,driver_name,vehicle_type,age,charge_per_km,availability
+1,"John Doe",auto,32,10.50,available
+2,"Jane Smith",bike,28,5.75,"not available"
+3,"Alice Johnson",car,45,12.00,reserved
+4,"Bob Brown",auto,38,9.25,available
+5,"Charlie Davis",bike,25,4.50,available
+6,"Eve Wilson",car,40,14.20,"not available"
+7,"David Harris",auto,50,11.00,reserved
+8,"Grace Lee",bike,22,6.30,available
+9,"Frank Miller",car,35,13.50,available
+10,"Helen Clark",auto,29,8.00,"not available"

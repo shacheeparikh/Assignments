@@ -1,0 +1,9 @@
+pickup_point,drop_point,km,price,driver_name,driver_id,journey_datetime
+Downtown,Airport,15.50,45.75,"John Doe",1,"2025-01-17 08:30:00"
+Airport,Downtown,15.50,45.75,"Jane Smith",2,"2025-01-17 09:15:00"
+"Central Park",Broadway,10.00,30.00,"Alice Johnson",3,"2025-01-17 10:00:00"
+Broadway,"Central Park",10.00,30.00,"Bob Brown",4,"2025-01-17 10:30:00"
+Uptown,Museum,12.00,36.00,"Charlie Davis",5,"2025-01-17 11:00:00"
+Museum,Uptown,12.00,36.00,"Eve Wilson",6,"2025-01-17 11:45:00"
+"City Center",Mall,7.25,21.75,"David Harris",7,"2025-01-17 12:30:00"
+"cg road",thqaltej,23.00,56.00,shachee,8,"2025-10-09 12:30:50"
