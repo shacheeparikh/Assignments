@@ -1,0 +1,4 @@
+vehicle_id,vehicle_type,vehicle_model,registration_number,driver_id,status,created_at
+1,bike,"kawasaki baja",12345,1,Available,"2025-02-14 13:40:17"
+2,auto,bajaj-200,145678,2,Available,"2025-02-14 13:41:27"
+3,car,hyundai-verna,98765,3,Available,"2025-02-14 13:41:27"

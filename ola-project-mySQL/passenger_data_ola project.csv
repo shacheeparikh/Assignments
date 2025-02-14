@@ -1,0 +1,4 @@
+passenger_id,name,email,phone,password,created_at
+1,siya,siya@gmail.com,1234567,1234567,"2025-02-14 14:17:46"
+2,mira,mira@gnail.co,11111,12345,"2025-02-14 14:17:46"
+3,krina,krina@gnail.co,123456789,tops123,"2025-02-14 14:17:46"

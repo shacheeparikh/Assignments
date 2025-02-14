@@ -1,0 +1,11 @@
+driver_id,driver_name,vehicle_id,age,availability,charger_per_km
+1,"daya singh",1,32,available,10.00
+2,"alap patel",2,28,"not available",10.00
+3,"bansi patel",3,45,reserved,10.00
+4,"ciya nair",1,38,available,10.00
+5,"elena de souza",2,25,available,10.00
+6,"dipen singh",3,40,"not available",10.00
+7,shachee,1,50,reserved,10.00
+8,"dany agarwal",2,22,available,10.00
+9,"megh chavda",3,35,available,10.00
+10,"simran sharma",1,29,"not available",10.00

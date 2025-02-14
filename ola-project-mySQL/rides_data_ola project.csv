@@ -1,0 +1,4 @@
+ride_id,passenger_id,driver_id,pickup_point,dropoff_point,ride_status,ride_start_time,ride_end_time,distance,price,created_at
+1,1,1,"train station",airport,Completed,"2025-02-14 08:00:00","2025-02-14 08:30:00",12.00,NULL,"2025-02-14 14:21:29"
+2,2,2,"queens palace",station-2,Completed,"2025-02-14 09:00:00","2025-02-14 10:00:00",10.00,100.00,"2025-02-14 14:24:42"
+3,3,3,"kings square","mall of fame",Completed,"2025-02-14 09:00:00","2025-02-14 09:50:00",22.00,220.00,"2025-02-14 14:37:43"
